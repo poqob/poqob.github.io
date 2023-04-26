@@ -1,0 +1,70 @@
+kendi memleketimizi anlatan bir web sitesi görevi.
+
+İSTERLER:
+
+bootstrap içerecek
+responsive olacak
+
+    sayfalar:
+        *hakkında (giriş sayfası niteliğinde olacak)
+            içerik:sayfa sahibinin kendini tanıtan bilgiler (Hobiler, Etkinlikler vb ) , sevdiği spor,etkinlik vb ait resimler, linkler vb. içermelidir
+        
+        *CV 
+            içerik: Eğitim bilgilerini içeren CV niteliğinde samantic tagların kullanıldığı özgeçmiş sayfası olmalıdır.
+
+        *Şehrim sayfası
+            içerik:  bu sayfada memletinize ya da sevdiğiniz şehre ait bilgiler yer
+            almalıdır. (Şehrin nufusu, gezilecek yerler vb) Sayfanın başında ya da sonunda en az 4 resimden
+            oluşan bir slider yer almalıdır. Slider’da yer alan resimlere tıklandığında ilgili resimlere ait içeriklere
+            link olmalıdır.(İçerikler ayrıntılı olmadan site içersinde yer almalı)
+
+        *Mirasımız
+            içerik: şehre ait kültürel miras niteliğindeki önemli bir eser; ya da Takımımız
+            linkli bir sayfada şehrin takımı (Futbol,Basketbol vb branş farketmez) html elamanları kullanılarak
+            tanıtılmalıdır.
+
+        *iletişim:
+            içerik:Sitede form elamanları içeren bir iletişim sayfası olmalıdır.
+            İletişim sayfası tüm form elemanlarını içermeli, formun tüm elamanlarının elemanın özelliğine
+            göre seçim yada veri girişi yapılacak şekilde gönderilmesi sağlanmalıdır.
+            İletişim formundaki gerekli kontrol işlemleri (boş mu, e-mail formatında mı vb.) javascript ve
+            popular bir js framework (Vue.js, Angular.js , Express.js vb) kullanılarak iki farklı butonda ayrı ayrı
+            denetlenmelidir. (Html elemanlarına ait dahili denetimler kabul edilmeyecekitir)
+            
+            Form, temizle ve gönder butonları içermelidir.
+            Gönderilen form elemanlarına ait tüm bilgiler başka bir sayfada görüntülenmelidir. 
+
+            
+
+
+
+api: 
+    İlgi alanlarım isminde bir sayfada, ilgi alanlarınız çerçevesinde (film, spor vb) internetten bulduğunuz
+    ücretsiz bir API servisinden veri alınıp gösterilmelidir.
+
+
+login/register, server kontrolü (php)
+
+
+beklenen dosya tasarımı:
+    Projenin içindeki stiller (renk, yazı tipi, vs.) ayrı bir stil dosyasında tutulmalıdır. 
+
+
+proje hakkında:
+    1.Proje bölümüne GitHub proje linki ile beraber kısa bilgi dökümanı sistemde verilen 1. Proje
+    bölümünde belirtilen son tarihe kadar gönderilmelidir.
+    Proje hosting hizmeti veren bir sitede yer almalıdır. İnternette pek çok ücretsiz (tercihinize göre
+    ücretli de olabilir) host hizmeti veren site mevcuttur. (Örneğin https://tr.000webhost.com/ ,
+    https://profreehost.com/,https://www.infinityfree.net/ ya da başka bir siteye projelerinizi yükleyip
+    bu siteler tarafından size verilen subdomainler dahilinde, sitenize internetten ulaşabilirsiniz. Ayrıntılı
+    açıklama duyurular kısmında yer alacaktır.)
+
+
+teslim formatı: 
+1.Proje bölümüne GitHub proje linki ile beraber kısa bilgi dökümanı sistemde verilen 1. Proje
+bölümünde belirtilen son tarihe kadar gönderilmelidir.
+Proje hosting hizmeti veren bir sitede yer almalıdır. İnternette pek çok ücretsiz (tercihinize göre
+ücretli de olabilir) host hizmeti veren site mevcuttur. (Örneğin https://tr.000webhost.com/ ,
+https://profreehost.com/,https://www.infinityfree.net/ ya da başka bir siteye projelerinizi yükleyip
+bu siteler tarafından size verilen subdomainler dahilinde, sitenize internetten ulaşabilirsiniz. Ayrıntılı
+açıklama duyurular kısmında yer alacaktır.)
