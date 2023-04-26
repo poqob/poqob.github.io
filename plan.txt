@@ -6,6 +6,7 @@ bootstrap içerecek
 responsive olacak
 
     sayfalar:
+
         *hakkında (giriş sayfası niteliğinde olacak)
             içerik:sayfa sahibinin kendini tanıtan bilgiler (Hobiler, Etkinlikler vb ) , sevdiği spor,etkinlik vb ait resimler, linkler vb. içermelidir
         
@@ -68,3 +69,29 @@ Proje hosting hizmeti veren bir sitede yer almalıdır. İnternette pek çok üc
 https://profreehost.com/,https://www.infinityfree.net/ ya da başka bir siteye projelerinizi yükleyip
 bu siteler tarafından size verilen subdomainler dahilinde, sitenize internetten ulaşabilirsiniz. Ayrıntılı
 açıklama duyurular kısmında yer alacaktır.)
+
+
+TASARIM:
+
+hakkında tasarım: 
+    animasyonlu- etkileyici, statik olmayan bir tasarım.?? 
+        layout: öğrenildi. row,col(12 parçadan bir parça) row-6(12 parçadan bir parça)
+        WOW: animasyon bilgisi araştırılıyor??
+
+        sayfa aşağı doğru büyüsün,
+        
+        giriş; fadeout animasyonu içerisinden eski öz çıksın, üzerinde material font ile büyükçe isim soy isim
+        
+        ikinci; materyal tasarıma sahip bir arayüzde sağdan-soldan sayfaya kaydırma animasyonu ile yaprakımsı (yeşil tema) öğelrer gelsin,
+                orta kısımda özgeçmişten kısaca bahsedilsin (detaylısı cv sayfasında) cv sayası bağlantısı bırakılsın, birkaç görsel ile arka plan sisli olacak şekilde beslesin
+        
+        üçüncü; materyal tasarım, hobilere yer verilebilir. atlı karınca tasarımında bir kaydırma olsun ve üzerinde hobiler gezsin.
+        hobiler değiştikçe hemen altında da hobilere bağlı metin-bilgi gezsin mümkünse animatik olsun.
+
+        devamı bize kalmış aga...
+
+
+
+
+araştırma:
+    
