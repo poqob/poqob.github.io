@@ -90,8 +90,25 @@ hakkında tasarım:
 
         devamı bize kalmış aga...
 
+cv tasarımı: 
+    https://dribbble.com/shots/20817774-Modern-CV-Resume-Template , material ui. bir cv sayfası olsun gerekirse (statik olsun) 
+    sayfa açılışında tek seferliğe mahsus birkaç animasyon kullanılabilir.
 
 
+şehrim sayfası:
+    burası epey uzun olacak gibi. Sayfa başında mutlaka bir slider olmalı. slider içeriğine tıklandığında 
+    *aynı sayfa içerisindeki sayfacıklara bizi sürükleyerek görsel ve içeriği hakkında sabit bilgi barınacak.
+    material ui. (Şehrin nufusu, gezilecek yerler vb) 
+
+mirasımız: 
+    Şehre ait miras: çini sanatı
+
+iletişim: 
+
+
+API:
+    flask api: bursa eserleri,
+    js api: hava durumu, 
 
 araştırma:
     
