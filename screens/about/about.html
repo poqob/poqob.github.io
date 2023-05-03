@@ -1,5 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f4f4f4;
+    }
+
+    .content {
+        width: 100%;
+        height: 1080px;
+        background-color: #f1c40f;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+        font-family: Arial, sans-serif;
+        color: #fff;
+        font-size: 48px;
+        text-align: center;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+</style>
 
 <head>
     <meta charset="UTF-8">
@@ -11,35 +42,41 @@
 </head>
 
 <body>
-
     <div class="container text-center custom-animation">
         <div class="row">
             <div class="col-4" id="fbutton">
-                <button class="btn btn-outline-primary btn-block">Primary Outline Button</button>
+                <button class="btn btn-outline-primary btn-block" onclick="scrollToTarget()">Scroll</button>
             </div>
-
             <div class="col-4">
                 <button class="btn btn-outline-primary btn-block">Primary Outline Button</button>
             </div>
-
             <div class="col-4">
                 <button class="btn btn-outline-primary btn-block">Primary Outline Button</button>
             </div>
         </div>
     </div>
 
+    <div class="content">
+        <h1>Welcome to Colorful HTML Page</h1>
+    </div>
 
+    <div class="content">
+        <h1>Welcome to Colorful HTML Page</h1>
+    </div>
 
+    <section id="section0" class="container">
+        <!-- Content of the target section -->
+        bartelameo
+    </section>
 
     <script src="path/to/bootstrap.min.js"></script>
     <script>
-        function func() {
-            alert("button clicked");
+        function scrollToTarget() {
+            var targetSection = document.getElementById("section0");
+            targetSection.scrollIntoView({ behavior: "smooth" });
         }
-
-        var myButton = document.getElementById("fbutton");
-        myButton.addEventListener("click", func);
     </script>
 </body>
+
 
 </html>
