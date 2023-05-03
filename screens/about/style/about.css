@@ -1,0 +1,80 @@
+.card-about {
+    position: relative;
+    background-color: #78909c;
+    width: 100%;
+    margin-top: 20px;
+    height: 800px;
+    align-items: center;
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+
+/*left top*/
+.leaf-0 {
+    position: absolute;
+    height: 30%;
+    left: 10px;
+    top: 50px;
+    transform: rotate(-90deg);
+    z-index: 1;
+}
+
+.leaf-1 {
+    position: absolute;
+    height: 30%;
+    left: 80px;
+    top: 10px;
+    transform: rotate(-65deg);
+    z-index: 2;
+}
+
+.leaf-5 {
+    position: absolute;
+    height: 30%;
+    left: 145px;
+    top: 10px;
+    transform: rotate(-35deg);
+    z-index: 3;
+}
+
+/*right bottom*/
+.leaf-3 {
+    position: absolute;
+    height: 30%;
+    right: 10px;
+    bottom: 50px;
+    transform: rotate(80deg);
+    z-index: 1;
+}
+
+.leaf-4 {
+    position: absolute;
+    height: 30%;
+    right: 60px;
+    bottom: 10px;
+    transform: rotate(110deg);
+    z-index: 2;
+}
+
+.leaf-2 {
+    position: absolute;
+    height: 30%;
+    right: 120px;
+    bottom: 0px;
+    transform: rotate(140deg);
+    z-index: 3;
+}
+
+
+
+.paragraph-about {
+
+    font-family: Roboto, sans-serif;
+    left: 10px;
+    font-weight: bold;
+    z-index: 1;
+
+}
