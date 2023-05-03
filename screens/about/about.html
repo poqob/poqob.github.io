@@ -8,12 +8,14 @@
     <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/greeting.css">
+    <link rel="stylesheet" href="style/gallery.css">
     <link rel="stylesheet" href="style/about.css">
     <title>About</title>
 
 </head>
 
 <body>
+    <!-- GREETING-->
     <div class="container-custom">
         <div class="content card-greeting content-wraper">
             <h1 class="headline-greeting">Ben Mustafa</h1>
@@ -21,6 +23,7 @@
         </div>
     </div>
 
+    <!-- ABOUT-->
     <div class="container-custom">
 
         <div class="content card-about content-wraper row  text-center">
@@ -39,12 +42,44 @@
         </div>
 
     </div>
-    <div class="container-custom">
-        <div class="content content-wraper col-12">
-            asdasd
+
+    <!-- DETAILS -->
+    <div class="container-custom content content-wraper">
+
+        <div class="row content-wraper">
+            <img src="../../images/5.jpeg" alt="p" class="image-border col-2">
+            <p class="col-9 paragraph">
+                paragrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagraf
+                paragrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagraf
+                paragrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagraf
+            </p>
+
+        </div> <br><br>
+
+        <div class="row content-wraper">
+            <p class="col-9 paragraph">
+                paragrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagraf
+                paragrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagraf
+                paragrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagraf
+            </p>
+            <img src="../../images/5.jpeg" alt="p" class="image-border col-2">
+
+
+        </div>
+        <br><br>
+
+        <div class="row content-wraper">
+            <img src="../../images/5.jpeg" alt="p" class="image-border col-2">
+            <p class="col-9 paragraph " id="parag">
+                paragrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagraf
+                paragrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagraf
+                paragrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagrafparagraf
+            </p>
+
         </div>
     </div>
 
+    <!-- SECTION-->
     <section id="section0" class="container">
         <div class="row">
             <div class="col-12">
@@ -56,10 +91,17 @@
 
     <script src="path/to/bootstrap.min.js"></script>
     <script>
+        // get texts from json and appyly them into html elements.
+        function init() {
+            var parag = document.getElementById("parag");
+            parag.textContent = "ehue";
+        }
+
         function scrollToTarget() {
             var targetSection = document.getElementById("blue");
             targetSection.scrollIntoView({ behavior: "smooth" });
         }
+       // init();
     </script>
 </body>
 
