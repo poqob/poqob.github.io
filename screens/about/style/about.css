@@ -73,8 +73,8 @@
 .paragraph-about {
 
     font-family: Roboto, sans-serif;
+    font-size: large;
     left: 10px;
-    font-weight: bold;
     z-index: 1;
 
 }
