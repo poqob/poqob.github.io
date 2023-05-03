@@ -14,9 +14,9 @@
 
 </head>
 
-<body>
+<body id="body">
     <!-- GREETING-->
-    <div class="container-custom">
+    <div class="container-custom" id="greeting">
         <div class="content card-greeting content-wraper">
             <h1 class="headline-greeting">Ben Mustafa</h1>
             <img class="image-greeting" src="../../images/5.jpeg" alt="zort">
@@ -24,7 +24,7 @@
     </div>
 
     <!-- ABOUT-->
-    <div class="container-custom">
+    <div class="container-custom" id="about">
 
         <div class="content card-about content-wraper row  text-center">
             <img src="../../images/leaf1.svg" alt="leaf-1" class="leaf-0 col-2">
@@ -44,7 +44,7 @@
     </div>
 
     <!-- DETAILS -->
-    <div class="container-custom content content-wraper">
+    <div class="container-custom content content-wraper" id="gallery">
 
         <div class="row content-wraper">
             <img src="../../images/5.jpeg" alt="p" class="image-border col-2">
@@ -89,20 +89,16 @@
         </div>
     </section>
 
-    <script src="path/to/bootstrap.min.js"></script>
-    <script>
-        // get texts from json and appyly them into html elements.
-        function init() {
-            var parag = document.getElementById("parag");
-            parag.textContent = "ehue";
-        }
+    <div class="floating-action-button" id="floating-action-button">
+        <img src="../../icons/arrow.svg" alt="arrow">
+    </div>
 
-        function scrollToTarget() {
-            var targetSection = document.getElementById("blue");
-            targetSection.scrollIntoView({ behavior: "smooth" });
-        }
-       // init();
-    </script>
+    <script src="path/to/bootstrap.min.js"></script>
+    <script src="scripts/init.js"></script>
+    <script src="scripts/scroll.js"></script>
+
+
+    <script src="scripts/fab.js"></script>
 </body>
 
 </html>
