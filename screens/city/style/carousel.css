@@ -1,0 +1,27 @@
+.card {
+    position: relative;
+    background-color: #78909c;
+    width: 100%;
+    margin-top: 20px;
+    height: 800px;
+    align-items: center;
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 0;
+
+}
+
+.positioned-container {
+    position: relative;
+    height: 540;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.imgsize {
+    width: 1920px;
+    height: 810px;
+}
