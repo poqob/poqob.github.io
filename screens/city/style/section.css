@@ -1,8 +1,23 @@
 .page-section {
     height: 810px;
-    /* Adjust the height as needed */
+
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #f5f5f5;
 }
+
+.section-image-border {
+    width: 50px;
+    height: 80px;
+    position: inherit;
+    overflow: hidden;
+    object-fit: cover;
+    margin-bottom: 25px;
+    border-start-end-radius: 25%;
+    border-start-start-radius: 25%;
+    filter: grayscale(100%) contrast(40%) sepia(40%);
+    z-index: 1;
+}
+
+.section-image-size {}
