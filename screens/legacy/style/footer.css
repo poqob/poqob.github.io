@@ -1,0 +1,11 @@
+.footer-paragraph {
+    position: inherit;
+    bottom: 2px;
+    left: 2px;
+    color: grey;
+}
+
+.footer {
+    padding: 1%;
+    background-color: rgb(205, 205, 205);
+}

@@ -1,0 +1,45 @@
+.image-container {
+    display: flex;
+    padding: 2%;
+}
+
+.image-box {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5%;
+}
+
+.image-box img {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+
+}
+
+.image-box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #000;
+    border-radius: 5%;
+    box-sizing: border-box;
+}
+
+.image-box:last-child {
+    margin-right: 0;
+    /* Remove margin for the last image */
+}
+
+.paragraph {
+    padding: 3%;
+    text-align: center;
+}
+
+.section-heading {
+    text-align: center;
+    padding: 2%;
+    color: black;
+}
