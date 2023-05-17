@@ -13,23 +13,22 @@ $message = $_GET['message'];
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Form Submitted</title>
+  <title>Form Onaylandı</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
-
 <body>
   <div class="container mt-5">
-    <h1>Form Submitted</h1>
+    <h1>Form Gönderildi</h1>
     <div class="alert alert-success">
-      <p>Yes, your form has been successfully submitted!</p>
-      <p>Your form inputs:</p>
+      <p>Evet, formunuz başarıyla gönderildi!</p>
+      <p>Formdaki bilgileriniz:</p>
       <ul>
-        <li><strong>Name:</strong> <?php echo $name; ?></li>
-        <li><strong>Surname:</strong> <?php echo $surname; ?></li>
-        <li><strong>Email:</strong> <?php echo $email; ?></li>
-        <li><strong>Age:</strong> <?php echo $age; ?></li>
-        <li><strong>Gender:</strong> <?php echo $gender; ?></li>
-        <li><strong>Message:</strong> <?php echo $message; ?></li>
+        <li><strong>İsim:</strong> <?php echo $name; ?></li>
+        <li><strong>Soyadı:</strong> <?php echo $surname; ?></li>
+        <li><strong>E-posta:</strong> <?php echo $email; ?></li>
+        <li><strong>Yaş:</strong> <?php echo $age; ?></li>
+        <li><strong>Cinsiyet:</strong> <?php echo $gender; ?></li>
+        <li><strong>Mesaj:</strong> <?php echo $message; ?></li>
       </ul>
     </div>
   </div>
