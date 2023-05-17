@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim Formu</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+</head>
+
+<body>
+    <div id="app" class="container">
+        <h1 class="text-center">İletişim Formu</h1>
+        <form @submit.prevent="submitForm">
+            <div class="form-group">
+                <label for="name">İsim:</label>
+                <input type="text" id="name" v-model="formData.name" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="surname">Soyadı:</label>
+                <input type="text" id="surname" v-model="formData.surname" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="age">Yaşınız:</label>
+                <input type="number" id="age" v-model="formData.age" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label>Gender:</label>
+                <div class="form-check">
+                    <input type="radio" id="erkek" name="gender" value="e" v-model="formData.gender"
+                        class="form-check-input">
+                    <label for="erkek" class="form-check-label">Erkek</label>
+                </div>
+
+                <div class="form-check">
+                    <input type="radio" id="kadin" name="gender" value="k" v-model="formData.gender"
+                        class="form-check-input">
+                    <label for="kadin" class="form-check-label">Kadın</label>
+                </div>
+
+                <div class="form-check">
+                    <input type="radio" id="diger" name="gender" value="d" v-model="formData.gender"
+                        class="form-check-input">
+                    <label for="diger" class="form-check-label">Diğer</label>
+                </div>
+
+                <div class="form-check">
+                    <input type="radio" id="nogender" name="gender" value="n" v-model="formData.gender"
+                        class="form-check-input">
+                    <label for="nogender" class="form-check-label">Belirtmek istemiyorum</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="text">E-posta:</label>
+                <input type="text" id="email" v-model="formData.email" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="message">Mesaj:</label>
+                <textarea id="message" v-model="formData.message" class="form-control"></textarea>
+            </div>
+            <div>
+                <button type="submit" class="btn btn-primary">Gönder</button>
+                <button type="button" @click="resetForm" class="btn btn-secondary">Temizle</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="script/controll.js"></script>
+</body>
+
+</html>
